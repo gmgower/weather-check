@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherCheck App</title>
+  </head>
+  <body>
     <main>
-        
+      <section class="currentCondition"></section>
+      <section class="dailyForecast"></section>
+      <section class="searchField">
+        <form action="" class="searchField_form">
+          <label for="searchField_text">Enter a new location</label>
+          <input
+            class="searchField_text"
+            type="text"
+            size="40"
+            autocomplete="off"
+            placeholder="City, State, Country"
+          />
+          <button class="searchField_button" title="Submit Location">
+            Submit
+          </button>
+        </form>
+      </section>
     </main>
-</body>
+  </body>
 </html>
