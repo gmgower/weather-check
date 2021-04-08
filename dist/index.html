@@ -19,8 +19,30 @@
   </head>
   <body>
     <main>
-      <section class="currentCondition"></section>
-      <section class="dailyForecast"></section>
+      <section class="currentCondition">
+        <h2 class="currentCondition_location">Current Conditions</h2>
+        <div class="currentCondition_conditions"></div>
+        <nav class="navButtons">
+          <button class="button" title="Get Location">
+            <i class="fas fa-map-marker-alt"></i>
+          </button>
+          <button class="button" title="Your home weather">
+            <i class="fas fa-home"></i>
+          </button>
+          <button class="button" title="Save your Location">
+            <i class="fas fa-save"></i>
+          </button>
+          <button class="button" title="Toggle Measurement Units">
+            <i class="fas fa-temperature-high"></i>
+          </button>
+          <button class="button" title="Toggle Measurement Units">
+            <i class="fas fa-sync-alt"></i>
+          </button>
+        </nav>
+      </section>
+      <section class="dailyForecast">
+
+      </section>
       <section class="searchField">
         <form action="" class="searchField_form">
           <label for="searchField_text">Enter a new location</label>
@@ -32,7 +54,7 @@
             placeholder="City, State, Country"
           />
           <button class="searchField_button" title="Submit Location">
-            <i class="fas fa-search-plus"></i>
+            <i class="fas fa-search-location"></i>
           </button>
         </form>
       </section>
