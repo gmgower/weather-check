@@ -19,6 +19,7 @@
   </head>
   <body>
     <main>
+      <!-- Current Condition -->
       <section class="currentCondition">
         <h2 class="currentCondition_location">Current Conditions</h2>
         <div class="currentCondition_conditions"></div>
@@ -35,14 +36,18 @@
           <button class="button" title="Toggle Measurement Units">
             <i class="fas fa-temperature-high"></i>
           </button>
-          <button class="button" title="Toggle Measurement Units">
+          <button class="button" title="Refresh Weather">
             <i class="fas fa-sync-alt"></i>
           </button>
         </nav>
+        <hr />
       </section>
+      <!-- Daily Forecast -->
       <section class="dailyForecast">
-
+        <h2 class="dailyForecast_title">Six Day Forecast</h2>
+        <div class="dailyForecast_contents"></div>
       </section>
+      <!-- Search Field -->
       <section class="searchField">
         <form action="" class="searchField_form">
           <label for="searchField_text">Enter a new location</label>
