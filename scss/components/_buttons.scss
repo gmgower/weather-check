@@ -1,0 +1,16 @@
+.button {
+    min-height: 48px;
+    max-width: 48px;
+    color: $button-textcolor;
+    border: 2px solid $bordercolor;
+    border-radius: 80px;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: 900;
+    background-color: $button-color;
+    @include mediaQuery(768px){
+        min-width: 64px;
+        min-height: 64px;
+    }
+}
+
