@@ -23,27 +23,42 @@
       <!-- Current Condition -->
       <section class="currentCondition">
         <h2 class="currentCondition_location">Current Conditions</h2>
-        <div class="currentCondition_conditions"></div>
-        <!-- Nav section -->
-        <nav class="navButtons">
-          <button class="button" title="Get Location">
-            <i class="fas fa-map-marker-alt"></i>
-          </button>
-          <button class="button" title="Your home weather">
-            <i class="fas fa-home"></i>
-          </button>
-          <button class="button" title="Save your Location">
-            <i class="fas fa-save"></i>
-          </button>
-          <button class="button" title="Toggle Measurement Units">
-            <i class="fas fa-temperature-high"></i>
-          </button>
-          <button class="button" title="Refresh Weather">
-            <i class="fas fa-sync-alt"></i>
-          </button>
-        </nav>
-        <hr />
+        <div class="currentCondition_conditions">
+          <div class="icon" id="icon">
+            <i class="far fa-sun" title="clear sky"></i>
+          </div>
+          <div class="temp">
+            78
+            <div class="unit">F</div>
+          </div>
+          <div class="desc">Clear Sky</div>
+          <div class="feels">Feels Like 75</div>
+          <div class="maxtemp">High 82</div>
+          <div class="mintemp">Low 67</div>
+          <div class="humidity">Humidity 15</div>
+          <div class="wind">Wind 16 mph</div>
+        </div>
       </section>
+      <!-- Nav section -->
+      <nav class="navButtons">
+        <button class="button" title="Get Location">
+          <i class="fas fa-map-marker-alt"></i>
+        </button>
+        <button class="button" title="Your home weather">
+          <i class="fas fa-home"></i>
+        </button>
+        <button class="button" title="Save your Location">
+          <i class="fas fa-save"></i>
+        </button>
+        <button class="button" title="Toggle Measurement Units">
+          <i class="fas fa-temperature-high"></i>
+        </button>
+        <button class="button" title="Refresh Weather">
+          <i class="fas fa-sync-alt"></i>
+        </button>
+      </nav>
+      <hr />
+
       <!-- Daily Forecast -->
       <section class="dailyForecast">
         <!-- <h2 class="dailyForecast_title">Six Day Forecast</h2> -->
