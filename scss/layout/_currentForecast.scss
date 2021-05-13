@@ -1,0 +1,21 @@
+.currentCondition {
+    .currentCondition_location {
+        font-size: 1rem;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 1rem;
+        @include mediaQuery(768px) {
+            font-size: 1.3rem;
+        }
+    }
+
+.currentCondition_conditions{
+    width: 100%;
+    font-size: 1.1rem;
+    margin: auto auto 2rem;
+    display: grid;
+    @include mediaQuery(375px){
+        font-size: 1.3rem;
+    }
+}
+}
